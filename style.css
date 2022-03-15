@@ -1,0 +1,24 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.right {
+   width: 100%;
+}
+
+.input-group {
+   width: 100%;
+   display: grid;
+   grid-template-columns: 11fr 1fr;
+}
+
+.trStudent {
+   transition: all 400ms ease;
+}
+
+.trStudent:hover {
+   background-color: #d4edda;
+   cursor: pointer;
+}
